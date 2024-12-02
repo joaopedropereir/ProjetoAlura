@@ -1,0 +1,69 @@
+body{
+     background: rgb(120, 89, 131);
+     color: rgba(245, 231, 28, 0.643);
+     margin: 30px;
+     font-family: "agdasima", sans-serif;
+     margin-bottom: 100px;
+}
+
+header{
+    border-bottom:solid 26px rgb(222, 241, 13);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(255, 247, 0);
+}
+
+.chamada {
+    background: rgb(166, 144, 202);
+    color:rgb(238, 238, 8);
+    padding-bottom: 20px;
+    padding-top: 20xp;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin: 10%;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+p {
+    font-size: 30px;
+    margin: 25px;
+}
+
+
+
+.categoria-videos {
+display:flex;
+overflow-x: auto;
+gap:5px;
+}
+
+
+.categoria {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 50px;
+}
+
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+} 
+
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(196, 196, 12);
+}
+
+.categoria h2 {
+    color: rgb(124, 124, 6);
+}
